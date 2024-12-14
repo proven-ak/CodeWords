@@ -11,6 +11,7 @@
 # Примеры
 # "This is an example!" ==> "sihT si na !elpmaxe"
 # "double  spaces"      ==> "elbuod  secaps"
+
 new_list = []
 new_str = ""
 
@@ -33,6 +34,10 @@ def reverse_words(text):
     new_list.append(str(new_str))
 
     return ("".join(new_list))
+
+
+# def reverse_words(str):
+#     return ' '.join(s[::-1] for s in str.split(' '))
 
 
 print('apple', "  ***  ", reverse_words('apple'), "  ***  ", 'elppa')
