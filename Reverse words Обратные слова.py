@@ -30,13 +30,12 @@ def reverse_words(text):
             new_list.append(str(char))
             new_str = ""
 
-        print("+++", new_str, char, new_list)
+    new_list.append(str(new_str))
 
-    print("***", "".join(new_list))
     return ("".join(new_list))
 
 
 print('apple', "  ***  ", reverse_words('apple'), "  ***  ", 'elppa')
-# print('The quick brown fox jumps over the lazy dog.', "  ***  ", reverse_words('The quick brown fox jumps over the lazy dog.'), "  ***  ", 'ehT kciuq nworb xof spmuj revo eht yzal .god')
-# print('a b c d', "  ***  ", reverse_words('a b c d'), "  ***  ", 'a b c d')
-# print('  double  spaced  words  ', "  ***  ", reverse_words('  double  spaced  words  '), "  ***  ", '  elbuod  decaps  sdrow  ')
+print('The quick brown fox jumps over the lazy dog.', "  ***  ", reverse_words('The quick brown fox jumps over the lazy dog.'), "  ***  ", 'ehT kciuq nworb xof spmuj revo eht yzal .god')
+print('a b c d', "  ***  ", reverse_words('a b c d'), "  ***  ", 'a b c d')
+print('  double  spaced  words  ', "  ***  ", reverse_words('  double  spaced  words  '), "  ***  ", '  elbuod  decaps  sdrow  ')
